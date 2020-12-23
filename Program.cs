@@ -9,7 +9,9 @@ namespace MTZKIT
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x = 12;
+            int y = 8;    
+            Console.WriteLine("x+y={0}",x+y);
             Console.ReadKey();
         }
     }
